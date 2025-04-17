@@ -3,7 +3,7 @@
 **Clonador de Canais/Grupos do Telegram**  
 *Clone mensagens, mídias e documentos entre canais de forma automatizada e eficiente.*
 
----
+
 
 ## 📌 Visão Geral
 O **TG Cloner** é um script Python desenvolvido para copiar mensagens (texto, mídia, vídeos, documentos e stickers) de um canal/grupo do Telegram para outro. Ideal para:
@@ -13,7 +13,7 @@ O **TG Cloner** é um script Python desenvolvido para copiar mensagens (texto, m
 
 Funciona localmente mas também no **Google Colab** com persistência de dados via **Google Drive**.  
 
----
+
 
 ## ⚙️ Funcionalidades
 - **Clone de Conteúdo**:
@@ -30,7 +30,7 @@ Funciona localmente mas também no **Google Colab** com persistência de dados v
   - Suporte a contas marcadas como "spammer"  
   - Persistência de sessão no Google Drive  
 
----
+
 
 ## 📋 Pré-requisitos 
 1. **API_ID** e **API_HASH** obtidos em [my.telegram.org](https://my.telegram.org/)  
@@ -45,7 +45,10 @@ Funciona localmente mas também no **Google Colab** com persistência de dados v
   - `API_ID`  
   - `API_HASH`  
 
-### 2. Execute no Google Colab
+### 2. Execução
 ```python
-# Cole o código completo fornecido em uma célula do Colab
-# Siga as instruções interativas para configurar
+#Localmente:
+#Execute o main.py usando o terminal ou então execute o arquivo `exec.bat`.
+
+#Colab:
+#Entre no Colab execute a célula e pronto.
